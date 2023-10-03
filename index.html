@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Outfit:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@200&family=Outfit:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-color: hsl(30, 38%, 92%);
+    }
+
+    .box {
+      width: 550px;
+      height: 430px;
+      background-color: white;
+      margin: auto;
+      border: 2px solid white;
+      border-radius: 10px;
+      margin: 150px 500px;
+      display: flex;
+
+    }
+
+    /* #box-2{
+      font-family: 'Montserrat', sans-serif;
+    } */
+
+    .box img {
+      width: 275px;
+      height: 430px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    #item-1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      font-weight: bold;
+      padding: 30px 30px 10px 30px;
+      color: hsl(228, 12%, 48%);
+    }
+
+    #item-2 {
+      font-family: 'Fraunces', serif;
+      font-size: 35px;
+      color: hsl(212, 21%, 14%);
+      font-weight: bold;
+      margin-left: 20px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      line-height: 1;
+      padding-left: 6px;
+
+    }
+
+    #item-3 {
+      font-family: 'Montserrat', sans-serif;
+      color: hsl(228, 12%, 48%);
+      font-size: 13px;
+      padding: 10px 30px;
+      font-weight: bold;
+      line-height: 1.5;
+
+    }
+
+    #item-4 {
+      font-family: 'Fraunces', serif;
+      font-size: 30px;
+      color: hsl(158, 36%, 37%);
+      font-weight: bold;
+      padding: 35px 25px 35px 35px;
+
+    }
+
+    #item-5 {
+      font-family: 'Montserrat', sans-serif;
+      color: hsl(228, 12%, 48%);
+      font-size: 10px;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 0px;
+      
+    }
+
+    input[type="submit"] {
+      border: 2px solid white;
+      border-radius: 8px;
+      color: white;
+      background-color: hsl(158, 36%, 37%);
+      padding: 13px 73px;
+      margin: 20px 28px;
+      font-weight: bold;
+    }
+    input:hover{
+      cursor: pointer;
+      background-color: hsl(157, 63%, 14%);
+    }
+    
+    
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div id="box-1">
+      <img src="images/image-product-desktop.jpg" alt="">
+    </div>
+
+    <div id="box-2">
+      <p id="item-1">
+        P&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;U&nbsp;&nbsp;&nbsp;M&nbsp;&nbsp;&nbsp;E
+      </p>
+      <p id="item-2">Gabrielle Essence Eau De Parfum</p>
+      <p id="item-3">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+
+      <span id="item-4">$149.99</span>
+      <span id="item-5">$169.99</span>
+
+      <div>
+        <input type="submit" value="Add to cart">
+      </div>
+
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
